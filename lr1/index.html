@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FrontNews</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="style/index.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <div class="logo-container">
+            <img src="style/img/logo.png">
+            <p>Frontend News</p>
+        </div>
+    </div>
+    <div class="header-bar">
+        <div class="header-bar__container">
+            <div class="btn-group">
+                <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    Публикации
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="">Новые</a></li>
+                    <li><a href="">По рейтингу</a></li>
+                    <li><a href="">Все подряд</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    Темы <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="">Разработка</a></li>
+                    <li><a href="">Администрирование</a></li>
+                    <li><a href="">Менеджмент</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    Авторы <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="">Новые</a></li>
+                    <li><a href="">По рейтингу</a></li>
+                    <li><a href="">Все подряд</a></li>
+                    <li><a href="">Подписки</a></li>
+                </ul>
+            </div>
+            <div class="input-group input-group-lg col-lg-4">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                </span>
+            </div>
+            <button type="button" class="btn btn-lg btn-default" aria-label="Left Align">
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                Log in\Register
+            </button>
+        </div>
+    </div>
+</header>
+<main>
+</main>
+<footer>
+    <div class="footer-term-container">
+        <div class="footer-term"><a>Аккаунт</a></div>
+        <div class="footer-term"><a>Разделы</a></div>
+        <div class="footer-term"><a>Информация</a></div>
+        <div class="footer-term"><a>Услуги</a></div>
+    </div>
+    <div class="footer-authors-container">
+        <div class="img-container__sign">
+            <p>Следите за нами в соц сетях:</p>
+        </div>
+        <div class="img-container__block">
+            <div class="img-container">
+                <a href="https://twitter.com/frontendmasters">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMqSURBVGhD7Zg7aBRBGMfX3TvBRrFQFMEHqFiIiDZ2QkC00cqAxCqYQkUQxMInIQRNIaYIiAFRUDGZWS6C2FloYWPlk4AgaqGixaF3N7OJz2z+s/ep590Y93ZnNxbzgz+7uex+r3nszDgWi8VisVhmi9LECpcH+z0mBz0uL7hMnirw2lbHDz16opUwnEN3CeFT89IbIcbkUgQ/4nHxAwmELWLyhceCnfR0nRuVhS6Xp5FsN/2SDBg56jExQH8mpsjEeth5q02gUUxMQWdUi7lc3MZ9gMTfOf7HBWQqGajSc+UAFTlOP7UPry1CQG9ago4jJr4gkY7ITuKegW4VVei34SGnN3Tpv7GBjYsNNuKLyTJapQv3O5DMpWgcJWK0urbZOLraXYcHy+iJf3O9PB+JfG62E09C/rxX44QsJgAD7U/DJFUpJnvitI7Hg11aG21JnE094cDQh1bDdblMPEK1O2eaNtE1DuvejSUmvkcFMwGqf17rpFFMvELV+osjYgO99gskckj7ThwxWSEzBvAnlsNotcXJ38TEe7TULVz70K/34TqgfS6OYIuiMAMC2wOjjbNXPsIHkkJIR5HJTVTdTlT3JLrPV63DjBTNkEbw5RKdg/wkhimS9KAqz/ROspcaYxRGelxeO6BzkoecUnUNhWGAe2EBU+gDnaNMxeQ4RWCQ+vI7WjzmJXwIe8m7YeprpsvQN51jo8KKVxWPPBtmdHJl0ZcbMR3vxSB8og3AmMQV8mqeAgu26J0aFlbKaitMbrMBjvwWx8Yl+sldhmC7iRnssT6A9MIAf4qV9FzyljHqMICJm7pAUkmtdEu1deQlP9S2E/35GrrC6/RrMLzffHqSNwiiAwm91AcYQ9g8eby2m8zlT3S8w8VVBJJ8eY/uBG0nkzmCPuyy2kEMyjupEoAwaTzMZ0zwyVWo+DCCvk/Lk/i7xJnEpMAH9YRaw5GnHOgNXSTSraZFbVDtiMlP0KAzJhaT9dmh6AebEdAQghlHS+nPbpvFZBli6EZd0Rnyfwc+jEhmG1qqx/XlMYyXc6rauPYh6CPqLMvhldVJTiUtFovFYrFYHGcazS5/dDE9KGwAAAAASUVORK5CYII=">
+                </a>
+            </div>
+            <div class="img-container">
+                <a href="https://vk.com/love_frontend">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKgSURBVGhD7ZnPbwxhGMdnZx0liEhxcuFG/LoLiZvEgdKzixP/gkuZIUGRCAnVlIiUkB4kYsVFusgGM90t2rRWaYM06Kas7o/O432m72Zndp/uvrOy+77a+SSfy+67zzzfnfedmcyrhYSEhCwy+vqiuml1REz7ZsS0Yi3VsHv1U9Zh7QTovJsG6Uys0w0roZs2SNWwX2pnUmt5VwFxz4T9oqqoNK14Q2cGpxNdUKI4zYKCa4IsJlFcM7w9cdiPnlLFZIo98fbEYQvsGVVMqqwn3p44SzLIhstv4eijzwt65OEn2H8vDZuvDcOy03QNIZsdZN/dNIgylS1AV2IK1l8aImvVVKUgJSZn8rCte5ist6AqBkFefc0Gm2oyghTmHHiSnnEd/Znjn1az9XqAsyIjyPRs0Tfm2OMJ/o2fvXfGfONqqkKQKPNPweHfltl09Z1vXE1VCLLqfMqdbl5eszXiHVNXGUEyLMjqrpTrzhsjEGNrxUuu6MDu2wGmFSojSC3GM3nYdWuUrFVT1YIg6ekcdA58g5VsylE1SVUMUuL991nYeEVwwcsI4l0j6JoLKdjD1kR84jcfUQY/o+pWKSNI5VWrZNvFIchXXL2QLSI3RpWCoGPEnb79wUdyrE+Vgiw/m4Rf+Tk+qszB/ynIinNJ6E3+4CP87GD3msrxVcoI4n1oRBNfsu5NkOIDuxTjIwxV26eMIEE4cF9gWqGqBsGzdjw2SdYkVS1I0XGgfyQD27sF1oXXZgep9/KhZEf/uPuMhU/CVJ26NjtIy1zSQRbNK1N8YUwVkyn2xNsTR8Vthagx2M7bC8D8llucKijHBjd6XOa33p7ThVuoYQ1oJwfbeFcNwv4F3XxzKGJYPeSGZTNlx8Rj//tmaEhISIhaaNpfYHWaNm8LLSoAAAAASUVORK5CYII=">
+                </a>
+            </div>
+            <div class="img-container">
+                <a href="https://plus.google.com/communities/104754387486747286577">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATSSURBVGhD7VldbBRVFO4z4g/RihhmmzYk2ESNJkQN8ZWEhEJn224A0dYARhCeTCFEHkiwFh54UKH6QgJYQqDG+pOoMVH7Y1IK9sfEoG3woRGBQhva7ux0t7O7cznn7tm2u3umMzs7O/Vhv+R72Jlzz/nO3HPvPTNbVkIJJfgHLVj1tBYMhDQ18FFEVb6MqIEe+D2AjAQD3XgN74WDgQa0pWH/D0zVVjwB4g4CfwfBJggWToi2wH4ciz7Inf+gBE5GgkqYE5oflRmcKd8TgsCNUDb3eVGFUBmHWdpFYYqHiW3rH4U6v8iL8JAQ416ofCWF9Rba1srVmqoMsYGLQNwgMCaF9wbhhmfKwflodjAfOIqxSUZhwHKCmfiDCeILcTf0pMzA2aVs5/5TaSc57iB3J9ax/3S9m01vCawqzhbrlsq4q3MmddhxDnOpN70kokdDInbqgIi27hGzzVtEpL6StS2EMCutJM8ZMHN4ArYndrTlbZH486oQyYTIhqlNCePHL4S+91V2rCuqynRes4L9D+uIqL/1gkgMdpFkG8xFRex0M+vHDcPBte+RTHvAFF7jnCD1ppdF8r9/SOUCzKkJkRwZFMmxv4QwYnQ1hXjf956VGhwFV0nm0qBWnO9iG6pE4kY/yUshMfirmD20NdNux3oRazssk4v/9q3jJPR3XpPrS9/zCnsfCdWSDNeseYrkWgOSCHEOkLG2QyQ/BePKx6xdmjh7+cwErinp96s29n6a4dpAPcm1Bu4M3OBIXYUwJ27LQIh4d2euTYF0mghobCG51gDDjuyBSCyfeSTi/PRD6eFGsCTffD5jjL6zev6e8fNl6d747uz8tcjO5zLsJdXAZZJrDTDszRkInDt7TAZB4JbL2UQ/qCeLJWAmZcLpMYmBX+gGj3jvNxkxiN0k1xpaUBlmBgqj8zNyDc5/uphzH+koEQAu6vQYN4ng6wTJtYbVO0exEllMx2vESSJg6Lq0rNZIRoJZpbWYThMB2pcWGPGLvblGBpGwWuwWNDo+pYHQzYwOsTZIx4k4Wez4NYMdjNvvvVsyECLe83WuDUP93Y3C1DUaBR3L+RbWDonNp77vdZjFF9n7acI6/pDkWiOvA7HjE5kgZ4vUd28QyX9HyRqqanpS6G9Us7b50NGBiO/Ili0KnNKy212ExHC3mD28LTMh2Ptjnx+RwudhmrLNz/DngtiizKjPPklylwYk0s85Qcqm8dZNUrcAFI31nxz7G+rOoKsLsGtnnBLKqo9k2gMSOcA5SRNPZ2wWHSGqi9gZD9t4VdlPMu1BL1YznKPFjB5vhFLrk7tYNsyZSWH8cEGuE26sOypTeb/uwqyc4J3lEneZ6NEGetXdLWbf31ysV137ZjEbNCvjnMPlIJzmdyc3r3uM5OUHeAK7OKfLQa1O2U6y3AFmpZ1z7Cdhy71ActwDP1eCo+tcAD+IR4GoWbOC5BSG5fuIrYx49hE7Dfm3Quq/QCag98Qq8DyJNLDM/PijBx7YOXPT6kcobPGAuxluh5yIQgg+72jBtTsojD/AcybV8tt3ALZUlWlszR+Eqh4n9/5DJgS9GTZz2JmyQhmiLY7BT6DLmgAH/AIYVivq8OmC2CswW124QaQ2CaULr+E9tHHcipdQQgkeoKzsIb7AQMjjFz+3AAAAAElFTkSuQmCC">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
