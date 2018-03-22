@@ -19,13 +19,13 @@ body {
 
 header {
     display: flex;
-    flex-grow: 1;
+    flex-grow: 0.5;
     flex-direction: row;
 }
 
 .logo{
     flex-grow: 1;
-    width: 40%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,6 +51,7 @@ header {
 }
 
 .header-bar {
+    margin-right: 2%;
     flex-grow: 2;
     width: 50%;
     display: flex;
@@ -61,6 +62,14 @@ header {
 .header-bar__container {
     width: 100%;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-bar__container__touch-device{
+    display: none;
+    width: 100%;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
