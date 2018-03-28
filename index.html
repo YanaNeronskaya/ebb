@@ -21,41 +21,26 @@
     </div>
     <div class="header-bar">
         <div class="header-bar__container">
-            <div class="btn-group">
-                <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
+            <a href="#publications">
+                <div class="btn btn-lg btn-default" aria-label="Left Align">
                     Публикации
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a href="">Новые</a></li>
-                    <li><a href="">По рейтингу</a></li>
-                    <li><a href="">Все подряд</a></li>
-                </ul>
-            </div>
-            <div class="btn-group">
-                <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                    Темы <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a href="">Разработка</a></li>
-                    <li><a href="">Администрирование</a></li>
-                    <li><a href="">Менеджмент</a></li>
-                </ul>
-            </div>
-            <div class="btn-group">
-                <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                    Авторы <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a href="">Новые</a></li>
-                    <li><a href="">По рейтингу</a></li>
-                    <li><a href="">Все подряд</a></li>
-                    <li><a href="">Подписки</a></li>
-                </ul>
-            </div>
+                </div>
+            </a>
+            <a href="#themes">
+                <div class="btn btn-lg btn-default" aria-label="Left Align">
+                    Темы
+                </div>
+            </a>
+            <a href="#authors">
+                <div class="btn btn-lg btn-default" aria-label="Left Align">
+                    Авторы
+                </div>
+            </a>
+            <a href="#conferences">
+                <div class="btn btn-lg btn-default" aria-label="Left Align">
+                    Конференции
+                </div>
+            </a>
             <div class="input-group input-group-lg col-lg-4">
                 <input type="text" class="form-control" placeholder="Поиск">
                 <span class="input-group-btn">
@@ -89,6 +74,18 @@
     </div>
 </header>
 <main>
+    <article id="publications" class="item-block">
+        <div><h3 class="item-block__content">Публикации</h3></div>
+    </article>
+    <article id="themes" class="item-block">
+        <div><h3 class="item-block__content">Темы</h3></div>
+    </article>
+    <article id="authors" class="item-block">
+        <div><h3 class="item-block__content">Авторы</h3></div>
+    </article>
+    <article id="conferences" class="item-block">
+        <div><h3 class="item-block__content">Конференции</h3></div>
+    </article>
 </main>
 <footer>
     <div class="footer-term-container">
